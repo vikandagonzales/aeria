@@ -1,0 +1,30 @@
+{
+  "name": "aeria",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-build": "node-sass src/_sass/main.scss src/css/main.css",
+    "css-postcss": "postcss --use autoprefixer --output src/css/main.css src/css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "js-build": "babel src/_javascript --out-dir src/lib",
+    "js-watch": "npm run js-build -- --watch",
+    "start": "npm run css-watch | npm run js-watch | react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.5.0",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.0",
+    "postcss-cli": "^5.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  }
+}
