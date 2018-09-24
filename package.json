@@ -9,7 +9,8 @@
     "css-watch": "npm run css-build -- --watch",
     "js-build": "babel src/_javascript --out-dir src/lib",
     "js-watch": "npm run js-build -- --watch",
-    "start": "npm run css-watch | npm run js-watch | react-scripts start",
+    "start": "react-scripts start",
+    "dev": "npm run css-watch | npm run js-watch | react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
