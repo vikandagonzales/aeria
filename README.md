@@ -1,5 +1,5 @@
 # Aeria
-A single-page application where users can look at aerial photography of any location on Earth by entering latitude and longitude coordinates. Data is being obtained from the [NASA Earth API](https://api.nasa.gov/api.html#earth). The app can be previewed [here](#).
+A single-page application where users can look at aerial photography of any location on Earth by entering latitude and longitude coordinates. Data is being obtained from the [NASA Earth API](https://api.nasa.gov/api.html#earth).
 
 #### Installation
 
