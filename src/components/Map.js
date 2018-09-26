@@ -13,14 +13,14 @@ class Map extends Component {
     };
   };
 
-  nasa = (data = {latitude: 47.61, longitude: -122.34}) => {
+  nasa = coordinates => {
     const url = 'https://api.nasa.gov/planetary/earth/imagery';
     const key = 'sTlrR6AQvGdqplpbFQ8NVae9g4Vjh0OxCuHrm0lv';
     const date = '2014-02-01';
     const size = 0.05;
 
-    const latitude = [data.latitude - size, data.latitude, data.latitude + size];
-    const longitude = [data.longitude - size, data.longitude, data.longitude + size];
+    const latitude = [coordinates.latitude - size, coordinates.latitude, coordinates.latitude + size];
+    const longitude = [coordinates.longitude - size, coordinates.longitude, coordinates.longitude + size];
 
     const tiles = [
       {latitude: latitude[2], longitude: longitude[0]},
