@@ -8,7 +8,7 @@ class Form extends Component {
           <p className="control is-expanded has-icons-left">
             <input
               className={this.props.invalid || this.props.unavailable ? 'input invalid-input' : 'input'}
-              placeholder="Longitude, Latitude"
+              placeholder="Latitude, Longitude"
               type="text"
               name="search"
               required
