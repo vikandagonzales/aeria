@@ -19,4 +19,4 @@ $ npm start
 
 ## Copyright
 
-Copyright &copy; 2018 Vikanda Gonzales. Made with HTML, CSS, Sass, and  JavaScript using [React](https://reactjs.org/) and [Bulma](http://bulma.io).
+Copyright &copy; 2018 Vikanda Gonzales. Made with HTML, CSS, Sass, and JavaScript using [React](https://reactjs.org/) and [Bulma](http://bulma.io).
